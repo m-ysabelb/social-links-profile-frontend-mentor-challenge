@@ -36,18 +36,18 @@ Users should be able to:
 [Live site URL here](https://m-ysabelb.github.io/social-links-profile-frontend-mentor-challenge/)
 
 ## My process
-- # Plan and code.
+- ### Plan and code.
   From my first look at the designs, I presumed that this project would be tough and it would take me a long time to finish it due to the multiple styles. I started the project by creating its HTML structure. This part, I can say, is the least time-consuming compared to the other parts of the process.
 
-- # Style the components.
+- ### Style the components.
   After the HTML, I proceeded to CSS, where fonts, sizes, colors, spacings, and other properties were involved. Most of the time was spent on this part because the design involves a lot of styling in order to achieve the expected look, and this is also my struggle since only a few basic elements and properties are familiar to me. One of the things I struggled with was how to make my project perform as effectively as a mobile-responsive website should. As a result, I solved the problem by using the spacings, margins, and paddings—the basic elements I have complete knowledge of. Google and YouTube were my constant companions during these research times.
 
-- # Test and try it for several times.
+- ### Test and try it for several times.
   This part was done simultaneously together with my trial and error phases of styling the project because there were a lot of times where I was unsatisfied of the look, especially its performance on mobiles. After hundreds of trial and error tests, I finally achieved of making it look similarly as expected. In future projects, I can say that 'Mobile-first Responsive design' is a vital part I need to practice on.
 
   This was completed simultaneously with the trial-and-error stages of styling the project since I frequently wasn't satisfied with the way it looked, particularly how it performed on mobile screens. Eventually, after countless trial-and-error attempts, I managed to make it appear to be working properly. At this point, I can say that "mobile-first responsive design" is an essential component I should put more effort into for upcoming projects.
 
-- # Deploy the project.
+- ### Deploy the project.
 
 ### Built with
 - Semantic HTML5 markup
