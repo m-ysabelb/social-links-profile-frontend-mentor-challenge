@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+body, button, .attribution {
+    color: #ffffff;
+}
+
+img, .profile-name, .attribution {
+    margin-top: 10px;
+}
+
+button, .location {
+    font-weight: 700;
+}
+
 body {
     background-color: #141414;
-    color: #ffffff;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 14px;
@@ -19,18 +30,15 @@ img {
     border-radius: 50%;
     width: 72px;
     max-height: auto;
-    margin-top: 10px;
     margin-bottom: 5px;
 }
 
 button {
     background-color: #333333;
-    color: #ffffff;
     width: 90%;
     border: none;
     padding: 10px;
     border-radius: 0.5rem;
-    font-weight: 700;
 }
 
 button:hover {
@@ -42,38 +50,31 @@ button:hover {
 .card {
     background-color: #1f1f1f;
     width: 320px;
+    padding: 25px 12px 3px 12px;
     text-align: center;
     border-radius: 0.6rem;
-    padding-top: 25px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 3px;
 }
 
 .profile-name {
-    font-size: 0.61rem;
+    font-size: 0.65rem;
     font-weight: lighter;
-    margin-top: 10px;
 }
 
 .location {
     color: #c5f82a;
-    font-size: 0.7rem;
-    font-weight: 700;
+    font-size: 0.72rem;
     margin-top: 8px;
 }
 
 .description {
-    font-size: 0.75rem;
+    font-size: 0.78rem;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 22px;
 }
 
 .attribution {
-    color: #ffffff;
     font-size: 9px;
-    margin-top: 10px;
     text-align: center;
     opacity: 0.8;
 }
@@ -94,10 +95,67 @@ button:hover {
     margin-bottom: 30px;
 }
 
-
 @media (max-width: 350px) {
-   /** .card {
-        display: block;
-        position: relative;
-    }**/
+    button {
+        font-weight: 600;
+    }
+
+    .card {
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .profile-name {
+        font-size: 0.58rem;
+    }
+   
+    .location {
+        font-size: 0.65rem;
+    }
+     
+    .description {
+        font-size: 0.70rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    button {
+        font-weight: 600;
+        font-size: smaller;
+    }
+
+    .card {
+        max-width: 235px;
+        text-align: center;
+    }
+
+    .profile-name {
+        margin-top: 8px;
+        font-size: 0.53rem;
+    }
+   
+    .location {
+        margin-top: 6px;
+        font-size: 0.60rem;
+    }
+     
+    .description {
+        font-size: 0.61rem;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    #button-1 {
+        margin-top: 5px;
+    }
+
+    #button-5 {
+        margin-bottom: 28px;
+    }
+
+    .attribution {
+        font-size: 7px;
+        margin-top: 12px;
+    }
 }
